@@ -6,7 +6,7 @@ import { useSelector } from 'react-redux';
 const SidebarStickyTutorial = ({functaggle}) => {
 
     const pages = useSelector(state => state.navigation.pages)
-    const pname = useRouter().pathname;
+    const pname = useRouter().asPath;
     let NavName = [];
 
     for(let i in pages) {
@@ -44,7 +44,7 @@ const SidebarStickyTutorial = ({functaggle}) => {
                     }
                 </div>
             </div>
-            <div className='center'>
+            <nav className='center'>
                 {NavName &&
                     NavName.map((iteme, index) => (
                         iteme.link == pname &&
@@ -57,10 +57,10 @@ const SidebarStickyTutorial = ({functaggle}) => {
                         </div>
                     ))
                 }
-            </div>
+            </nav>
             <div className='row'>
                 <div className='col s100 center'>
-                    <p className=' large textc-4'>أحمد الله رب العالمين و أصلي و أسلم على سيدنا محمد و على آله و صحبه أجمعين .</p>
+                    <p className=' xlarge textc-4'>أحمد الله رب العالمين و أصلي و أسلم على سيدنا محمد و على آله و صحبه أجمعين .</p>
                 </div>
             </div>
         </>

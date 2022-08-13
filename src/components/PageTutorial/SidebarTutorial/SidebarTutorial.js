@@ -6,7 +6,7 @@ import { useSelector } from 'react-redux'
 const SidebarTutorial = () => {
 
     const pages = useSelector(state => state.navigation.pages)
-    const pname = useRouter().pathname;
+    const pname = useRouter().asPath;
 
     return (
         <div>
