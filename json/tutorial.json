@@ -1,0 +1,34 @@
+{
+    "name" : "tutorial",
+    "data" : [
+        {
+            "number" : 1,
+            "sections" : "Frontend developer",
+            "name" : "HTML",
+            "description" : "HTML  هي لغة الترميز القياسية لصفحات الويب",
+            "link" : "/tutorial/html"
+        },
+        {
+            "number" : 2,
+            "sections" : "Frontend developer",
+            "name" : "CSS",
+            "description" : "لغة تنسيق لصفحات الويب تهتم بشكل وتصميم المواقع ، صممت خصيصا لفصل التنسيق عن محتوى المستند المكتوب وينطبق ذلك على الألوان والخطوط والصور والخلفيات التي تستخدم في الصفحات ، بمرونة وسهولة تامة .",
+            "link" : "/tutorial/css"
+        },
+        {
+            "number" : 3,
+            "sections" : "Frontend developer",
+            "name" : "JavaScript",
+            "description" : "هي لغة برمجة عالية المستوى تستخدم أساساً في متصفحات الويب لإنشاء صفحات أكثر تفاعلية .",
+            "link" : "/tutorial/javascript"
+        },
+        {
+            "number" : 4,
+            "sections" : "Frontend developer",
+            "name" : "Next.js",
+            "description" : "Next.js و هو إطار مبني بال React.js للإنتاج التطبيقات الفعالة و المبتكرة",
+            "link" : "/tutorial/next"
+        }
+    ],
+    "message" : "Link fetched successfully"
+}

@@ -1,0 +1,11 @@
+{
+    "name" : "sections",
+    "data" : [
+        {
+            "number" : 1,
+            "name" : "Frontend developer",
+            "description" : "الواجهة الأمامية هي كل ما يراه المستخدم ويتفاعل معه في صفحة الموقع فهي الجزء المرئي من الموقع"
+        }
+    ],
+    "message" : "Link fetched successfully"
+}
