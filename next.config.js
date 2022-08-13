@@ -7,9 +7,9 @@ const nextConfig = {
   //   path: 'http://localhost:3000',
   // },
   env: {
-    appName: 'Larect',
-    appUrl: 'http://localhost:3000',
-    apiUrl: 'http://localhost:3000',
+    appName: 'App Programming',
+    appUrl: 'https://appprogramming.vercel.app',
+    apiUrl: 'https://appprogramming.vercel.app',
   },
   // basePath:'/larect',
   // assentPrefix:'/larect',
