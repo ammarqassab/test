@@ -8,7 +8,7 @@ const Next = () => {
             <PageTutorial apiLocalUrl='next'>
                 <div className='mdx'>
                     <h1>لنتعرف على <code>Next.js</code> :</h1>
-                    <p><code>Next.js</code>هو إطار مبني بمكتبة <code>ٌReact.js</code> لإنتاج تطبيقات فعالة و مرنة</p>
+                    <p><code>Next.js </code> هو إطار مبني بمكتبة   <code>React.js</code>  لإنتاج تطبيقات فعالة و مرنة</p>
                     <h1>من ميزات <code>Next.js</code> :</h1>
                     <ul>
                         <li>يدعم <code>TypeScript</code></li>
@@ -20,6 +20,12 @@ const Next = () => {
                         <li><code>Middleware :</code> مثل نظام حماية لصفحات من الأشخاص غير مصرح بهم حيث يسمح لك بتشغيل التعليمات البرمجية قبل إكتمال طلب جلب الصفحة</li>
                         <li><code>Internationalized Routing :</code> يسمح بالنطاقات الفرعية عندما يكون للموقع أكثر من لغة</li>
                         <li>و هناك ميزات كثيرة إخرى ....</li>
+                    </ul>
+                    <h1>متطلبات تعلم  <code>Next.js :</code></h1>
+                    <ul>
+                        <li>معرفة قوية ب <code>Html</code></li>
+                        <li>معرفة قوية بلغة <code>Javascript</code></li>
+                        <li>معرفة قوية بمكتبة <code>React.js</code></li>
                     </ul>
                 </div>
             </PageTutorial>

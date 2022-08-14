@@ -18,13 +18,13 @@ const SidebarStickyTutorial = ({functaggle}) => {
 
     return (
         <>
-            <div className="sidebar-sticky bgc-1 center">
+            <nav className="sidebar-sticky bgc-1 center">
                 <div className="bar transparent" >
                     {NavName &&
                     NavName.map((iteme, index) => (
                         iteme.link == pname &&
                         <div key={index}>
-                            <nav className=' row'>
+                            <nav className=' row flex-nowrap'>
                                 {iteme.nextpage ? 
                                 <Link href={iteme.nextpage}><a className='bar-item btn margin round-xlarge text-decoration-none large'>التالي</a></Link>
                                 :
@@ -43,7 +43,7 @@ const SidebarStickyTutorial = ({functaggle}) => {
                     ))
                     }
                 </div>
-            </div>
+            </nav>
             <nav className='center'>
                 {NavName &&
                     NavName.map((iteme, index) => (

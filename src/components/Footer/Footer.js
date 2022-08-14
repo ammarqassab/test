@@ -14,8 +14,8 @@ const Footer = () => {
                 </div>
                 <div className='col m50 user-select padding' >
                     <h1 className="textc-4 xlarge" >تواصل معنا :</h1>
-                    <a href='https://wa.me/+963943435682' target='_blank' className="textc-2 hover-textc-4 large text-decoration-none display-block margin-top" >+963943435682</a>
-                    <a href='mailto:ammarqassab1997@gmail.com' target='_blank' className="textc-2 hover-textc-4 large text-decoration-none display-block margin-top" >ammarqassab1997@gmail.com</a>
+                    <a href='https://wa.me/+963943435682' target='_blank' className="textc-2 hover-textc-4 large text-decoration-none display-block margin-top" style={{direction:'ltr'}} >+963943435682</a>
+                    <a href='mailto:ammarqassab1997@gmail.com' target='_blank' className="textc-2 hover-textc-4 large text-decoration-none display-block margin-top"  style={{direction:'ltr'}}>ammarqassab1997@gmail.com</a>
                     {/* <Link href="/blog/next/mdxpage"><a className='textc-2 hover-textc-4 large text-decoration-none display-block margin-top'>MDX Page</a></Link> */}
                 </div>
                 <div className='col s100' >
