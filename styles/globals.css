@@ -2203,7 +2203,7 @@ div:hover.clip-path-card
   max-width: 700px;
   margin: -16px;
 }
-@media (max-width: 400px) {
+@media (max-width: 550px) {
   .mdx{
     font-size: 12px;
   }
