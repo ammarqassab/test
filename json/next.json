@@ -16,10 +16,20 @@
             "sections" : "Frontend developer",
             "tutorial" : "Next.js",
             "name" : "تنصيب Next.js",
-            "description" : "طريقة تنصيب Next.js في المشروع",
+            "description" : "طريقة تنصيب Next.js من أجل الحصول على مشروع جديد",
             "link" : "/tutorial/next/nextsetup",
-            "nextpage" : null ,
+            "nextpage" : "/tutorial/next/nextfile" ,
             "prevpage" : "/tutorial/next"
+        },
+        {
+            "number" : 3,
+            "sections" : "Frontend developer",
+            "tutorial" : "Next.js",
+            "name" : "ملفات مشروع Next.js",
+            "description" : "التعرف على ملفات مشروع Next.js",
+            "link" : "/tutorial/next/nextfile",
+            "nextpage" : null ,
+            "prevpage" : "/tutorial/next/nextsetup"
         }
     ],
     "message" : "Link fetched successfully"
