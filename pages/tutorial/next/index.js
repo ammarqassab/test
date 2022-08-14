@@ -21,7 +21,7 @@ const Next = () => {
                         <li><code>Internationalized Routing :</code> يسمح بالنطاقات الفرعية عندما يكون للموقع أكثر من لغة</li>
                         <li>و هناك ميزات كثيرة إخرى ....</li>
                     </ul>
-                    <h1>متطلبات تعلم  <code>Next.js :</code></h1>
+                    <h1>متطلبات تعلم  <code>Next.js</code> :</h1>
                     <ul>
                         <li>معرفة قوية ب <code>Html</code></li>
                         <li>معرفة قوية بلغة <code>Javascript</code></li>
