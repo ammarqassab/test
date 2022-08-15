@@ -2248,3 +2248,14 @@ div:hover.clip-path-card
   }
   }
 /* end mdx */
+
+/* quran */
+.quran {
+  color: var(--textc-2) !important;
+  line-height: 1.8 !important;
+  vertical-align: baseline !important;
+  text-align: justify !important;
+  direction: rtl !important;
+  font-weight: bold !important;
+}
+/* end quran */

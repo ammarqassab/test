@@ -1,0 +1,30 @@
+{
+    "name" : "quranalkarim",
+    "data" : [
+        {
+            "number" : 1,
+            "name" : "سورة الفاتحة",
+            "description" : "قراءة سورة الفاتحة",
+            "link" : "/quran/alfaatiha"
+        },
+        {
+            "number" : 2,
+            "name" : "سورة البقرة 1",
+            "description" : "قراءة سورة البقرة",
+            "link" : "/quran/albaqara"
+        },
+        {
+            "number" : 2,
+            "name" : "سورة البقرة 2",
+            "description" : "قراءة سورة البقرة",
+            "link" : "/quran/albaqara2"
+        },
+        {
+            "number" : 3,
+            "name" : "سورة آل عمران",
+            "description" : "قراءة سورة آل عمران",
+            "link" : "/quran/aaliImraan"
+        }
+    ],
+    "message" : "Link fetched successfully"
+}

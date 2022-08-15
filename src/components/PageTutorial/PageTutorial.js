@@ -1,7 +1,7 @@
 import React from 'react'
 import { useRouter } from 'next/router'
 import { useDispatch, useSelector } from 'react-redux'
-import { appName, FetchApi } from '../../Api/FetcherApi'
+import { FetchApi } from '../../Api/FetcherApi'
 import { addPages } from '../../Store/navigationSlice'
 import SidebarStickyTutorial from './SidebarTutorial/SidebarStickyTutorial'
 import SidebarTutorial from './SidebarTutorial/SidebarTutorial'

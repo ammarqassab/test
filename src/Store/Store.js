@@ -1,10 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { authSlice } from "./AuthSlice";
 import { navigationSlice } from "./navigationSlice";
+import { quranalkarimSlice } from "./QuranalkarimSlice";
 
 const store = configureStore({
     reducer : {
-        // auth: authSlice.reducer,
+        quranalkarim: quranalkarimSlice.reducer,
         navigation: navigationSlice.reducer,
     },
 });
