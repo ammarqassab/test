@@ -4,6 +4,13 @@
         {
             "number" : 1,
             "sections" : "Frontend developer",
+            "name" : "HTML",
+            "description" : "HTML  هي لغة الترميز القياسية لصفحات الويب",
+            "link" : "/tutorial/html"
+        },
+        {
+            "number" : 2,
+            "sections" : "Frontend developer",
             "name" : "Next.js",
             "description" : "Next.js و هو إطار مبني بال React.js للإنتاج التطبيقات الفعالة و المبتكرة",
             "link" : "/tutorial/next"
