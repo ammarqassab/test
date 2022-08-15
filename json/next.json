@@ -28,8 +28,18 @@
             "name" : "ملفات مشروع Next.js",
             "description" : "التعرف على ملفات مشروع Next.js",
             "link" : "/tutorial/next/nextfile",
-            "nextpage" : null ,
+            "nextpage" : "/tutorial/next/nextpages" ,
             "prevpage" : "/tutorial/next/nextsetup"
+        },
+        {
+            "number" : 4,
+            "sections" : "Frontend developer",
+            "tutorial" : "Next.js",
+            "name" : "تعلم Next.js Pages",
+            "description" : "التعرف على Pages في مشروع Next.js",
+            "link" : "/tutorial/next/nextpages",
+            "nextpage" : null ,
+            "prevpage" : "/tutorial/next/nextfile"
         }
     ],
     "message" : "Link fetched successfully"

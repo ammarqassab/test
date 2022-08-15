@@ -1,0 +1,34 @@
+import PageTutorial from '../../../src/components/PageTutorial/PageTutorial'
+
+<PageTutorial apiLocalUrl='next'>
+<div className='mdx'>
+
+#طريقة تنصيب الديناميكية لمشروع `Next.js` :
+
+نوصي عند تنصيب مشروع جديد استخدام طريقة `create-next-app` الذي يقوم بإعداد كل شيء تلقائيًا من أجلك .
+
+```
+npx create-next-app@latest app-name
+# or
+yarn create next-app app-name
+# or
+pnpm create next-app app-name
+```
+أذا كنت تريد استخدام `TypeScript` في المشروع جديد
+
+```
+npx create-next-app@latest --typescript app-name
+# or
+yarn create next-app --typescript app-name
+# or
+pnpm create next-app --typescript app-name
+```
+
+# بعد اكتمال تثبيت المشروع `Next.js` إتبع الخطوات التالية لتشغيل المشروع :
+
+* أفتح محرر الأوامر مثل `git bash` و أدخل الأمر التالي`npm run dev or yarn dev or pnpm dev` لبدء تشغيل خادم التطوير 
+* و يتم فتح المشروع على الرابط `http://localhost:3000`
+* عندها يتم فتح الصفحة الرئيسية التي موجودة في المجلد `pages/index.js`
+
+</div>
+</PageTutorial>

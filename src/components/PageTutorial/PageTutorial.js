@@ -46,7 +46,7 @@ const PageTutorial = ({ children,  apiLocalUrl}) => {
 
     return (
         <>
-            {pageinf.length >0 && <CommonSEO title={`${appName} - ${pageinf[0].name}`} description={`${pageinf[0].description}`} keywords={`${pageinf[0].name}, ${pageinf[0].sections}, ${pageinf[0].tutorial}`}/>}
+            {pageinf.length >0 && <CommonSEO title={`${pageinf[0].name}`} description={`${pageinf[0].description}`} keywords={`${pageinf[0].name}, ${pageinf[0].sections}, ${pageinf[0].tutorial}`}/>}
             <div className=' display-container width-mdx'>
                 <div id='idtutorual' className=' height-con' >
                     <SidebarStickyTutorial functaggle={functaggle}/>
