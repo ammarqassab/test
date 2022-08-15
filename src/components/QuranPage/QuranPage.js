@@ -25,7 +25,7 @@ const QuranPage = ({ children }) => {
             </div>
             <div className=' app-box-shadow padding'>
                 <div className='center xxlarge textc-4 padding'> بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ </div>
-                <div className=' margin-bottom xlarge quran padding'>
+                <div className=' margin-bottom xlarge quran'>
                     {children}
                 </div>
             </div>

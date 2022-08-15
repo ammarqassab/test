@@ -285,6 +285,13 @@ h6 {
     U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
     U+FEFF, U+FFFD;
 }
+/* quran */
+@font-face {
+  font-family: "quran";
+  font-style: normal;
+  font-weight: bold;
+  src: url(fonts/quranFont/quranFont.ttf) format(".ttf");
+}
 .serif {
   font-family: serif;
 }
@@ -302,6 +309,9 @@ h6 {
 }
 .sofia {
   font-family: "Sofia", cursive;
+}
+.quran-font {
+  font-family: "quran", cursive;
 }
 
 h1,
@@ -2252,10 +2262,23 @@ div:hover.clip-path-card
 /* quran */
 .quran {
   color: var(--textc-2) !important;
-  line-height: 1.8 !important;
+  line-height: 2 !important;
   vertical-align: baseline !important;
   text-align: justify !important;
   direction: rtl !important;
   font-weight: bold !important;
+  width: 60% !important;
+  margin: auto !important;
+  font-family: "quran", cursive;
+}
+@media (max-width: 992px) and (min-width: 601px) {
+  .quran {
+    width: 80% !important;
+  }
+}
+@media (max-width: 600px) {
+  .quran {
+    width: 98% !important;
+  }
 }
 /* end quran */

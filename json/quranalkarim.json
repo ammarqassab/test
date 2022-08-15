@@ -24,6 +24,12 @@
             "name" : "سورة آل عمران",
             "description" : "قراءة سورة آل عمران",
             "link" : "/quran/aaliImraan"
+        },
+        {
+            "number" : 4,
+            "name" : "سورة النساء",
+            "description" : "قراءة سورة النساء",
+            "link" : "/quran/alnisaa"
         }
     ],
     "message" : "Link fetched successfully"
