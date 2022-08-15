@@ -1,5 +1,4 @@
 import React from 'react'
-import Head from 'next/head'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 import Upscroll from '../Upscroll/Upscroll'
@@ -21,9 +20,6 @@ const AppLayout = ({ children }) => {
 
     return (
         <div className=' display-container bgc-1 height-100vh rtl textc-2'>
-            <Head>
-                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-            </Head>
             <Header/>
             <Upscroll/>
             <main>

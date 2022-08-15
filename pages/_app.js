@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/globals.css'
-import '../styles/all.min.css'
+// import '../styles/all.min.css'
 import AppLayout from '../src/components/Layout/AppLayout'
 import { Provider } from 'react-redux'
 import store from '../src/Store/Store'

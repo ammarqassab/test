@@ -8,6 +8,7 @@ const CommonSEO = ({ title, description, keywords }) => {
         <Head>
         <title>{title}</title>
         <meta charSet="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="theme-color" content="#39c7da" />
         <meta name="application-name" content={`${appName}`} />
         <meta name="keywords" content={`${keywords}`}></meta>
