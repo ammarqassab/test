@@ -30,6 +30,12 @@
             "name" : "سورة النساء",
             "description" : "قراءة سورة النساء",
             "link" : "/quran/alnisaa"
+        },
+        {
+            "number" : 5,
+            "name" : "سورة المائدة",
+            "description" : "قراءة سورة المائدة",
+            "link" : "/quran/almaaida"
         }
     ],
     "message" : "Link fetched successfully"
