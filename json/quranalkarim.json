@@ -36,6 +36,24 @@
             "name" : "سورة المائدة",
             "description" : "قراءة سورة المائدة",
             "link" : "/quran/almaaida"
+        },
+        {
+            "number" : 6,
+            "name" : "سورة الأنعام",
+            "description" : "قراءة سورة الأنعام",
+            "link" : "/quran/alanaam"
+        },
+        {
+            "number" : 7,
+            "name" : "سورة الأعراف",
+            "description" : "قراءة سورة الأعراف",
+            "link" : "/quran/alaraaf"
+        },
+        {
+            "number" : 8,
+            "name" : "سورة الأنفال",
+            "description" : "قراءة سورة الأنفال",
+            "link" : "/quran/alanfaal"
         }
     ],
     "message" : "Link fetched successfully"
