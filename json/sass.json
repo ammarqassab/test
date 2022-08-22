@@ -1,0 +1,26 @@
+{
+    "name" : "Sass",
+    "data" : [
+        {
+            "number" : 1,
+            "sections" : "Frontend developer",
+            "tutorial" : "Sass",
+            "name" : "مقدمة عن Sass",
+            "description" : "Sass و هو عبارة عن إضافة للغة CSS حيث يتم تحويل أكواد Sass عن طريق معالج إلى أكواد CSS",
+            "link" : "/tutorial/sass",
+            "nextpage" : "/tutorial/sass/sassextensions" ,
+            "prevpage" : null
+        },
+        {
+            "number" : 2,
+            "sections" : "Frontend developer",
+            "tutorial" : "Sass",
+            "name" : "تنصيب إضافات وبرامج لعمل Sass",
+            "description" : "ماهي الإضافات و البرامج اللازمة لعمل Sass",
+            "link" : "/tutorial/sass/sassextensions",
+            "nextpage" : null ,
+            "prevpage" : "/tutorial/sass"
+        }
+    ],
+    "message" : "Link fetched successfully"
+}

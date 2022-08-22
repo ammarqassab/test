@@ -54,6 +54,48 @@
             "name" : "سورة الأنفال",
             "description" : "قراءة سورة الأنفال",
             "link" : "/quran/alanfaal"
+        },
+        {
+            "number" : 9,
+            "name" : "سورة التوبة",
+            "description" : "قراءة سورة التوبة",
+            "link" : "/quran/altawba"
+        },
+        {
+            "number" : 10,
+            "name" : "سورة يونس",
+            "description" : "قراءة سورة يونس",
+            "link" : "/quran/yunus"
+        },
+        {
+            "number" : 11,
+            "name" : "سورة هود",
+            "description" : "قراءة سورة هود",
+            "link" : "/quran/hud"
+        },
+        {
+            "number" : 12,
+            "name" : "سورة يوسف",
+            "description" : "قراءة سورة يوسف",
+            "link" : "/quran/yusuf"
+        },
+        {
+            "number" : 13,
+            "name" : "سورة الرعد",
+            "description" : "قراءة سورة الرعد",
+            "link" : "/quran/alraad"
+        },
+        {
+            "number" : 14,
+            "name" : "سورة إبراهيم",
+            "description" : "قراءة سورة إبراهيم",
+            "link" : "/quran/ibrahim"
+        },
+        {
+            "number" : 15,
+            "name" : "سورة الحجر",
+            "description" : "قراءة سورة الحجر",
+            "link" : "/quran/alhijr"
         }
     ],
     "message" : "Link fetched successfully"
