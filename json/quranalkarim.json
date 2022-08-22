@@ -96,6 +96,54 @@
             "name" : "سورة الحجر",
             "description" : "قراءة سورة الحجر",
             "link" : "/quran/alhijr"
+        },
+        {
+            "number" : 16,
+            "name" : "سورة النحل",
+            "description" : "قراءة سورة النحل",
+            "link" : "/quran/alnahl"
+        },
+        {
+            "number" : 17,
+            "name" : "سورة الإسراء",
+            "description" : "قراءة سورة الإسراء",
+            "link" : "/quran/alisraa"
+        },
+        {
+            "number" : 18,
+            "name" : "سورة الكهف",
+            "description" : "قراءة سورة الكهف",
+            "link" : "/quran/alkahf"
+        },
+        {
+            "number" : 19,
+            "name" : "سورة مريم",
+            "description" : "قراءة سورة مريم",
+            "link" : "/quran/maryam"
+        },
+        {
+            "number" : 20,
+            "name" : "سورة طه",
+            "description" : "قراءة سورة طه",
+            "link" : "/quran/taahaa"
+        },
+        {
+            "number" : 21,
+            "name" : "سورة الأنبياء",
+            "description" : "قراءة سورة الأنبياء",
+            "link" : "/quran/alanbiyaa"
+        },
+        {
+            "number" : 22,
+            "name" : "سورة الحج",
+            "description" : "قراءة سورة الحج",
+            "link" : "/quran/alhajj"
+        },
+        {
+            "number" : 23,
+            "name" : "سورة المؤمنون",
+            "description" : "قراءة سورة المؤمنون",
+            "link" : "/quran/almuminoon"
         }
     ],
     "message" : "Link fetched successfully"
