@@ -16,7 +16,7 @@ const Header = () => {
     <>
       <header className=' row border-bottom borderc-4'>
           <div className=' col m66 text-decoration-none xxlarge sofia textc-4' style={{padding:'16px 32px'}} ><ApplicationLogo/></div>
-          <div className=' col m33 textc-4 center large pointer' style={{padding:"29px 0px"}} onClick={() => funHandle()}>الدورات التعليمية  <span className='arrow'></span> </div>
+          <div className=' col m33 textc-4 center large pointer' style={{padding:"34px 0px"}} onClick={() => funHandle()}>الدورات التعليمية  <span className='arrow'></span> </div>
       </header>
       {handle &&
         <nav>
