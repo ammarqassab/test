@@ -290,7 +290,7 @@ h6 {
   font-family: "quran";
   font-style: normal;
   font-weight: bold;
-  src: url(fonts/quranFont/quranFont.ttf) format(".ttf");
+  src: url(fonts/quranFont/quranFont.otf) format(".otf");
 }
 .serif {
   font-family: serif;
