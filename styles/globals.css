@@ -2037,7 +2037,7 @@ height: calc(100vh - 86px);
   height: calc(100vh - 145px);
 }
 }
-/* Card */
+/* header */
 .text-bad
 {
   color: red;
@@ -2091,8 +2091,10 @@ div:hover.clip-path-card
   font-size: 20%;
   height: 110px;
 }
-
-/* end Card */
+.imgheader span {
+  vertical-align: middle;
+}
+/* end header */
 
 .rotimg {
   transform: scale(2.5,2.5);
