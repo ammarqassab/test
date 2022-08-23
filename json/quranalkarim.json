@@ -144,6 +144,30 @@
             "name" : "سورة المؤمنون",
             "description" : "قراءة سورة المؤمنون",
             "link" : "/quran/almuminoon"
+        },
+        {
+            "number" : 24,
+            "name" : "سورة النور",
+            "description" : "قراءة سورة النور",
+            "link" : "/quran/alnoor"
+        },
+        {
+            "number" : 25,
+            "name" : "سورة الفرقان",
+            "description" : "قراءة سورة الفرقان",
+            "link" : "/quran/alfurqaan"
+        },
+        {
+            "number" : 26,
+            "name" : "سورة الشعراء",
+            "description" : "قراءة سورة الشعراء",
+            "link" : "/quran/alshuaraa"
+        },
+        {
+            "number" : 27,
+            "name" : "سورة النمل",
+            "description" : "قراءة سورة النمل",
+            "link" : "/quran/alnaml"
         }
     ],
     "message" : "Link fetched successfully"
