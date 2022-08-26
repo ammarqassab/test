@@ -35,11 +35,41 @@
             "number" : 4,
             "sections" : "Frontend developer",
             "tutorial" : "Next.js",
-            "name" : "تعلم Next.js Pages",
+            "name" : "تعلم الصفحات Pages",
             "description" : "التعرف على Pages في مشروع Next.js",
             "link" : "/tutorial/next/nextpages",
-            "nextpage" : null ,
+            "nextpage" : "/tutorial/next/nextrouting" ,
             "prevpage" : "/tutorial/next/nextfile"
+        },
+        {
+            "number" : 5,
+            "sections" : "Frontend developer",
+            "tutorial" : "Next.js",
+            "name" : "تعلم المسارات Routing",
+            "description" : "التعرف على Routing في مشروع Next.js",
+            "link" : "/tutorial/next/nextrouting",
+            "nextpage" : "/tutorial/next/nextdynamicroutes" ,
+            "prevpage" : "/tutorial/next/nextpages"
+        },
+        {
+            "number" : 6,
+            "sections" : "Frontend developer",
+            "tutorial" : "Next.js",
+            "name" : "تعلم المسارات الديناميكية Dynamic Routes",
+            "description" : "التعرف على Dynamic Routes في مشروع Next.js",
+            "link" : "/tutorial/next/nextdynamicroutes",
+            "nextpage" : "/tutorial/next/nextuserouter" ,
+            "prevpage" : "/tutorial/next/nextrouting"
+        },
+        {
+            "number" : 7,
+            "sections" : "Frontend developer",
+            "tutorial" : "Next.js",
+            "name" : "تعلم useRouter() next/router",
+            "description" : "التعرف على useRouter() next/router في مشروع Next.js",
+            "link" : "/tutorial/next/nextuserouter",
+            "nextpage" : null ,
+            "prevpage" : "/tutorial/next/nextdynamicroutes"
         }
     ],
     "message" : "Link fetched successfully"

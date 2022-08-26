@@ -1,0 +1,41 @@
+import PageTutorial from '../../../src/components/PageTutorial/PageTutorial'
+
+<PageTutorial apiLocalUrl='next'>
+<div className='mdx'>
+
+# إنشاء صفحات بمسارات ديناميكية `Dynamic Routes` :
+
+عندما نريد إنشاء صفحة واحدة لمسار متغيير نتبع هذه الطريقة من الأمثلة على هذه الصفحات صفحات المنتجات التي تأتي من الباك إند
+
+```
+// موقع الملف
+pages/posts/[id].js
+// المسار
+http://localhost:3000/posts/1
+أو
+http://localhost:3000/posts/123
+أو
+http://localhost:3000/posts/1x15g
+أو
+..
+```
+
+# إنشاء صفحات بمسارات ديناميكية متداخلة `Nested Dynamic Routes` :
+
+عندما نريد إنشاء مجلد واحد لمسار متغيير و نريد إنشاء صفحة واحدة لمسار متغيير نتبع هذه الطريقة من الأمثله على هذا النوع بناء صفحات لمنتجات عديدة وبتالي صفحات لتفاصيل عديدة
+
+```
+// مجلد بمسار متغيير و بداخله ملف بمسار متغيير
+pages/post/[pid]/[comment].js
+// المسار
+http://localhost:3000/post/abc/a-comment
+أو
+http://localhost:3000/post/333/hello
+أو
+..
+```
+تكون هذه الصفحات من نوع `SSG` أو `SSR` حسب طريقة بناء الصفحة
+سنتعلم في الصفحة التالية كيفية الوصول إلى المسار و التحكم به باستخدام `()useRouter`
+
+</div>
+</PageTutorial>

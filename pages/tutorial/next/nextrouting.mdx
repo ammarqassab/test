@@ -1,0 +1,89 @@
+import PageTutorial from '../../../src/components/PageTutorial/PageTutorial'
+
+<PageTutorial apiLocalUrl='next'>
+<div className='mdx'>
+
+# ما هي المسارات `Routing` :
+
+و هو نظام توجيه لصفحات و هو إحدى ميزات إطار `Next.js` قام ببناءه الفريق المطور للإطار حيث لم يكن متوفر في مكتبة `React.js` بل كنا نستعين بمكتبة خارجيه لنتعامل مع المسارات ,
+حيث أصبح بالإمكاننا الحصول على مسار معين , و ذلك  بإضافة ملف داخل مجلد , فقط بهذه السهولة
+
+# تعلمنا طريقة ترتيب المسارات و الصفحات في التطبيق :
+
+يجب أن يكون أسم ملف الصفحة أو مجلد الصفحة مكتوب بأحرف صغيرة و بداخل كل ملف صفحة مكون يبدأ أسمه بحرف كبير ولا يشترط أن يكون أسم المكون هو نفسه أسم الصفحة و لكن يفضل أن يكونا نفس الأسم مع ملاحظة حالة الأحرف
+
+```
+// موقع ملف الصفحة في المشروع
+pages/index.js
+
+// المكون
+function Home() {
+return <div>Home</div>;
+}
+
+export default Home
+
+// مسار الصفحة
+http://localhost:3000/
+```
+طريقة ترتيب ملفات الصفحات في مجلد `Pages` تحدد شكل مسار الصفحة لنأخذ أمثلة على ذلك .
+
+```
+// موقع الملف
+Pages/index.js
+// مسار الصفحة الرئيسية
+http://localhost:3000
+
+
+// موقع الملف
+Pages/about.js
+// أو ننشئ مجلد بأسم الصفحة حول و نضع داخله ملف الأندكس فالطريقتين متكافئتين
+Pages/about/index.js
+// المسار
+http://localhost:3000/about
+
+
+// موقع الملف
+Pages/tutorial.js
+// أو ننشئ مجلد بأسم الصفحة و نضع داخله ملف الأندكس فالطريقتين متكافئتين
+Pages/tutorial/index.js
+// المسار
+http://localhost:3000/tutorial
+
+
+// موقع الملف داخل مجلد دورات تعليمية
+Pages/tutorial/next.js
+// أو ننشئ مجلد بأسم الصفحة و نضع داخله ملف الأندكس فالطريقتين متكافئتين
+Pages/tutorial/next/index.js
+// المسار
+http://localhost:3000/tutorial/next
+
+
+// موقع الملف داخل مجلد دورات تعليمية
+Pages/tutorial/html.js
+// أو ننشئ مجلد بأسم الصفحة و نضع داخله ملف الأندكس فالطريقتين متكافئتين
+Pages/tutorial/html/index.js
+// المسار
+http://localhost:3000/tutorial/html
+```
+هذه الطريقة تؤدي إلى إنشاء صفحات ثابتة تتحول إلى ملفات `html` عند تحويل المشروع إلى الإنتاج عند الرفع على استضافة
+
+# المسارات المتداخلة `Nested routes` :
+
+و هو تفرع عدة مسارات لنفس المجلد
+
+```
+// موقع الملف داخل مجلد لوحة التحكم
+Pages/dashboard/index.js
+// يتفرع من المجلد مسارات إخرى
+Pages/dashboard/html.js
+// يتفرع من المجلد مجلد أخر بداخله ملف
+pages/dashboard/settings/username.js
+// المسارات
+http://localhost:3000/dashboard
+http://localhost:3000/dashboard/html
+http://localhost:3000/dashboard/settings/username
+```
+
+</div>
+</PageTutorial>
