@@ -10,7 +10,7 @@ const QuranSections = () => {
         <main className=' margin padding'>
             <div className="center margin-bottom" >
                 <div className="bar margin-top display-container" >
-                    <h1 className="bar-item xlarge textc-4 bottombar borderc-4 bold">القرآن الكريم</h1>
+                    <h2 className="bar-item xlarge textc-4 bottombar borderc-4 bold">القرآن الكريم</h2>
                 </div>
             </div>
             <div className='row app-box-shadow text-overflow2 padding'>

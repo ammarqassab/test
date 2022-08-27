@@ -10,10 +10,10 @@ const Footer = () => {
             <hr className=' borderc-4'/>
             <div className='row' >
                 <div className='col m50 padding' >
-                    <h1 className=' xxlarge textc-4'><ApplicationLogo/></h1>
+                    <h2 className=' xxlarge textc-4'><ApplicationLogo/></h2>
                 </div>
                 <div className='col m50 user-select padding' >
-                    <h1 className="textc-4 xlarge" >تواصل معنا :</h1>
+                    <h2 className="textc-4 xlarge" >تواصل معنا :</h2>
                     <a href='https://wa.me/+963943435682' target='_blank' className="textc-2 hover-textc-4 large text-decoration-none display-block margin-top" style={{direction:'ltr'}} >+963943435682</a>
                     <a href='mailto:ammarqassab1997@gmail.com' target='_blank' className="textc-2 hover-textc-4 large text-decoration-none display-block margin-top"  style={{direction:'ltr'}}>ammarqassab1997@gmail.com</a>
                     {/* <Link href="/blog/next/mdxpage"><a className='textc-2 hover-textc-4 large text-decoration-none display-block margin-top'>MDX Page</a></Link> */}
@@ -22,7 +22,7 @@ const Footer = () => {
                     {/* <hr className=' borderc-4'/> */}
                 </div>
                 <div className='col m50 padding' >
-                    <h1 className='textc-4 xlarge'>حول موقعنا :</h1>
+                    <h2 className='textc-4 xlarge'>حول موقعنا :</h2>
                     <p className=' large'>نحن شركة مهتمة بتعليم البرمجة و تطوير مواقع الويب وتطبيقات الهاتف المحمول لجذب علامتك التجارية و لزيادة من إراداتك .</p>
                 </div>
                 <div className='col m50 padding margin-top display-container' >

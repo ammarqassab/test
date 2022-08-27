@@ -13,7 +13,7 @@ const CartMySections = ({name}) => {
                 iteme.sections == name ?
                     <div className=' col l50 padding center' key={index}>
                         <div className='row app-box-shadow hover-app-box-shadow' style={{minHeight:'200px'}} >
-                            <h1 className='col s100 margin textc-4 xlarge bold' style={{minHeight:'30px'}} > {iteme.name}</h1>
+                            <h2 className='col s100 margin textc-4 xlarge bold' style={{minHeight:'30px'}} > {iteme.name}</h2>
                             <p className=' col s100 margin textc-2 large' style={{minHeight:'80px'}}>{iteme.description}</p>
                             <div className=' col s100' style={{minHeight:'76px'}} >
                                 <div className=' center' >
@@ -42,7 +42,7 @@ const Sections = () => {
             <div className=' margin padding' key={index}>
                 <div className="center margin-bottom" >
                     <div className="bar margin-top display-container" >
-                        <h1 className="bar-item xlarge textc-4 bottombar borderc-4 bold">{iteme.name}</h1>
+                        <h2 className="bar-item xlarge textc-4 bottombar borderc-4 bold">{iteme.name}</h2>
                     </div>
                 </div>
                 <div className='app-box-shadow text-overflow2' style={{padding:'18px'}} >
