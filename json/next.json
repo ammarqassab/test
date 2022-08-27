@@ -7,9 +7,7 @@
             "tutorial" : "Next.js",
             "name" : "مقدمة عن Next.js",
             "description" : "و هو إطار مبني بال React.js للإنتاج التطبيقات الفعالة و المبتكرة",
-            "link" : "/tutorial/next",
-            "nextpage" : "/tutorial/next/nextsetup" ,
-            "prevpage" : null
+            "link" : "/tutorial/next"
         },
         {
             "number" : 2,
@@ -17,9 +15,7 @@
             "tutorial" : "Next.js",
             "name" : "تنصيب Next.js",
             "description" : "طريقة تنصيب Next.js من أجل الحصول على مشروع جديد",
-            "link" : "/tutorial/next/nextsetup",
-            "nextpage" : "/tutorial/next/nextfile" ,
-            "prevpage" : "/tutorial/next"
+            "link" : "/tutorial/next/nextsetup"
         },
         {
             "number" : 3,
@@ -27,9 +23,7 @@
             "tutorial" : "Next.js",
             "name" : "ملفات مشروع Next.js",
             "description" : "التعرف على ملفات مشروع Next.js",
-            "link" : "/tutorial/next/nextfile",
-            "nextpage" : "/tutorial/next/nextpages" ,
-            "prevpage" : "/tutorial/next/nextsetup"
+            "link" : "/tutorial/next/nextfile"
         },
         {
             "number" : 4,
@@ -37,9 +31,7 @@
             "tutorial" : "Next.js",
             "name" : "تعلم الصفحات Pages",
             "description" : "التعرف على Pages في مشروع Next.js",
-            "link" : "/tutorial/next/nextpages",
-            "nextpage" : "/tutorial/next/nextrouting" ,
-            "prevpage" : "/tutorial/next/nextfile"
+            "link" : "/tutorial/next/nextpages"
         },
         {
             "number" : 5,
@@ -47,9 +39,7 @@
             "tutorial" : "Next.js",
             "name" : "تعلم المسارات Routing",
             "description" : "التعرف على Routing في مشروع Next.js",
-            "link" : "/tutorial/next/nextrouting",
-            "nextpage" : "/tutorial/next/nextdynamicroutes" ,
-            "prevpage" : "/tutorial/next/nextpages"
+            "link" : "/tutorial/next/nextrouting"
         },
         {
             "number" : 6,
@@ -57,9 +47,7 @@
             "tutorial" : "Next.js",
             "name" : "تعلم المسارات الديناميكية Dynamic Routes",
             "description" : "التعرف على Dynamic Routes في مشروع Next.js",
-            "link" : "/tutorial/next/nextdynamicroutes",
-            "nextpage" : "/tutorial/next/nextuserouter" ,
-            "prevpage" : "/tutorial/next/nextrouting"
+            "link" : "/tutorial/next/nextdynamicroutes"
         },
         {
             "number" : 7,
@@ -67,9 +55,7 @@
             "tutorial" : "Next.js",
             "name" : "تعلم useRouter() next/router",
             "description" : "التعرف على useRouter() next/router في مشروع Next.js",
-            "link" : "/tutorial/next/nextuserouter",
-            "nextpage" : null ,
-            "prevpage" : "/tutorial/next/nextdynamicroutes"
+            "link" : "/tutorial/next/nextuserouter"
         }
     ],
     "message" : "Link fetched successfully"

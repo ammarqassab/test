@@ -5,7 +5,7 @@ import { addPages } from '../../Store/navigationSlice'
 import SidebarStickyTutorial from './SidebarTutorial/SidebarStickyTutorial'
 import SidebarTutorial from './SidebarTutorial/SidebarTutorial'
 
-const PageTutorial = ({ children,  apiLocalUrl}) => {
+const PageTutorial = ({ children,  apiLocalUrl, namePage}) => {
     const dispatch = useDispatch();
 
     const api = FetchApi(apiLocalUrl);
@@ -20,7 +20,6 @@ const PageTutorial = ({ children,  apiLocalUrl}) => {
         if(taggle) {
             settaggle(false);
             document.getElementById("idtutorual").style.marginRight = "0px";
-            window.scrollTo({top:0,behavior:"smooth",});
         } else {
             settaggle(true);
             document.getElementById("idtutorual").style.marginRight = "200px";
@@ -33,6 +32,20 @@ const PageTutorial = ({ children,  apiLocalUrl}) => {
             <div className=' display-container width-mdx'>
                 <div id='idtutorual' className=' height-con' >
                     <SidebarStickyTutorial functaggle={functaggle}/>
+                    <nav className='center'>
+                        <div>
+                            <div className='row'>
+                                <div className='col s100'>
+                                    <h1 className='xxlarge' >{namePage}</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                    <div className='row'>
+                        <div className='col s100 center'>
+                            <p className=' xlarge textc-4'>أحمد الله رب العالمين و أصلي و أسلم على سيدنا محمد و على آله و صحبه أجمعين .</p>
+                        </div>
+                    </div>
                     {children}
                 </div>
                 {taggle && <SidebarTutorial functaggle={functaggle}/>}

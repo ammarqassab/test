@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 
-const QuranPage = ({ children }) => {
+const QuranPage = ({ children, title }) => {
 
     const quranalkarim = useSelector(state => state.quranalkarim.pages)
 
@@ -32,7 +32,7 @@ const QuranPage = ({ children }) => {
     return (
         <div className=' margin padding rtl'>
             <div className='center xxlarge margin-bottom padding'>
-                {pageinf.length > 0 && <h1>{`(${pageinf[0].number})`} {pageinf[0].name}</h1>}
+                <h1>{title || 'سورة'}</h1>
             </div>
             <div className=' app-box-shadow padding'>
                 <div className='center xxlarge textc-4 padding'> بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ </div>

@@ -8,11 +8,23 @@ const SidebarStickyTutorial = ({functaggle}) => {
     const pages = useSelector(state => state.navigation.pages)
     const pname = useRouter().asPath;
     let NavName = [];
+    let nextpage = null;
+    let prevpage = null;
 
-    for(let i in pages) {
-        if(pages[i].link == pname) {
-            NavName.push(pages[i]);
-            break;
+    if(pages) {
+        for(let i in pages) {
+            if(pages[i].link == pname) {
+                if(i > 0) {
+                    prevpage = [];
+                    prevpage.push(pages[i - 1]);
+                }
+                NavName.push(pages[i]);
+                if(pages.length - 1 > i) {
+                    nextpage = [];
+                    nextpage.push(pages[++i]);
+                }
+                break;
+            }
         }
     }
 
@@ -20,21 +32,21 @@ const SidebarStickyTutorial = ({functaggle}) => {
         <>
             <nav className="sidebar-sticky bgc-1 center">
                 <div className="bar transparent" >
-                    {NavName &&
+                    {NavName.length > 0 &&
                     NavName.map((iteme, index) => (
                         iteme.link == pname &&
                         <div key={index}>
                             <nav className=' row flex-nowrap'>
-                                {iteme.nextpage ? 
-                                <Link href={iteme.nextpage}><a className='bar-item btn margin round-xlarge text-decoration-none large'>التالي</a></Link>
+                                {nextpage ? 
+                                <Link href={nextpage[0].link}><a className='bar-item btn margin round-xlarge text-decoration-none large'>التالي</a></Link>
                                 :
                                 <div className='bar-item btn margin round-xlarge hover-app-box-shadow-on large'>التالي</div>
                                 }
 
                                 <div className="bar-item btn margin round-xlarge large" onClick={() => functaggle()} >☰</div>
 
-                                {iteme.prevpage ? 
-                                <Link href={iteme.prevpage}><a className='bar-item btn margin round-xlarge text-decoration-none large'>السابق</a></Link>
+                                {prevpage ? 
+                                <Link href={prevpage[0].link}><a className='bar-item btn margin round-xlarge text-decoration-none large'>السابق</a></Link>
                                 :
                                 <div className='bar-item btn margin round-xlarge hover-app-box-shadow-on large'>السابق</div>
                                 }
@@ -44,25 +56,6 @@ const SidebarStickyTutorial = ({functaggle}) => {
                     }
                 </div>
             </nav>
-            <nav className='center'>
-                {NavName &&
-                    NavName.map((iteme, index) => (
-                        iteme.link == pname &&
-                        <div key={index}>
-                            <div className='row'>
-                                <div className='col s100'>
-                                    <h1 className='xxlarge' >{iteme.name}</h1>
-                                </div>
-                            </div>
-                        </div>
-                    ))
-                }
-            </nav>
-            <div className='row'>
-                <div className='col s100 center'>
-                    <p className=' xlarge textc-4'>أحمد الله رب العالمين و أصلي و أسلم على سيدنا محمد و على آله و صحبه أجمعين .</p>
-                </div>
-            </div>
         </>
     )
 }
