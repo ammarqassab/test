@@ -34,8 +34,8 @@ const PageTutorial = ({ children,  apiLocalUrl, namePage}) => {
 
     return (
         <>
-            <div className=' display-container width-mdx'>
-                <div id='idtutorual' className=' height-con' >
+            <div className=' display-container'>
+                <div id='idtutorual' className=' height-con width-mdx' >
                     <SidebarStickyTutorial functaggle={functaggle}/>
                     <nav className='center'>
                         <div>
