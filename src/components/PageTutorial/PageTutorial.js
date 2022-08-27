@@ -27,6 +27,11 @@ const PageTutorial = ({ children,  apiLocalUrl, namePage}) => {
         }
     }
 
+    React.useEffect(() => {
+        let media = window.matchMedia("(max-width: 992px)")
+        if(!media.matches) {functaggle()}
+    },[])
+
     return (
         <>
             <div className=' display-container width-mdx'>

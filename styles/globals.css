@@ -2104,17 +2104,15 @@ div:hover.clip-path-card
 /* mdx */
 .width-mdx {
   min-width: 250px;
-  overflow-x:visible;
+  overflow-x: hidden;
 }
 .mdx{
   user-select: text;
   color: var(--textc-2);
   text-align: right;
   font-size: 18px;
-  width: 80% !important;
-  min-width: 250px !important;
-  overflow-x: visible;
-  margin: auto;
+  min-width: 250px;
+  overflow-x: hidden;
 }
 .mdx h1,.mdx h2,.mdx h3,.mdx h4,.mdx h5,.mdx h6 {
   margin: 32px 16px;
@@ -2260,16 +2258,6 @@ div:hover.clip-path-card
   }
 }
 
-@media (max-width: 992px) and (min-width: 601px) {
-  .mdx {
-    width: 90% !important;
-  }
-}
-@media (max-width: 600px) {
-  .mdx {
-    width: 100% !important;
-  }
-}
 /* end mdx */
 
 /* quran */
