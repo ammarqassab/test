@@ -4,19 +4,12 @@
         {
             "number" : 1,
             "sections" : "Frontend developer",
-            "name" : "HTML",
-            "description" : "HTML  هي لغة الترميز القياسية لصفحات الويب",
-            "link" : "/tutorial/html"
-        },
-        {
-            "number" : 2,
-            "sections" : "Frontend developer",
             "name" : "Sass",
             "description" : "Sass و هو عبارة عن إضافة للغة CSS حيث يتم تحويل أكواد Sass عن طريق معالج إلى أكواد CSS",
             "link" : "/tutorial/sass"
         },
         {
-            "number" : 3,
+            "number" : 2,
             "sections" : "Frontend developer",
             "name" : "Next.js",
             "description" : "Next.js و هو إطار مبني بال React.js للإنتاج التطبيقات الفعالة و المبتكرة",

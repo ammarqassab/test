@@ -2,8 +2,9 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
+import CommonSEO from '../SEO/SEO'
 
-const QuranPage = ({ children, title }) => {
+const QuranPage = ({ children, title, description, keywords }) => {
 
     const quranalkarim = useSelector(state => state.quranalkarim.pages)
 
@@ -30,33 +31,36 @@ const QuranPage = ({ children, title }) => {
     }
 
     return (
-        <div className=' margin padding rtl'>
-            <div className='center xxlarge margin-bottom padding'>
-                <h1>{title || 'سورة'}</h1>
-            </div>
-            <div className=' app-box-shadow padding'>
-                <div className='center xxlarge textc-4 padding'> بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ </div>
-                <div className=' margin-bottom xlarge quran'>
-                    {children}
+        <>
+            <CommonSEO title={title} description={description} keywords={keywords} />
+            <div className=' margin padding rtl'>
+                <div className='center xxlarge margin-bottom padding'>
+                    <h1>{title || 'سورة'}</h1>
+                </div>
+                <div className=' app-box-shadow padding'>
+                    <div className='center xxlarge textc-4 padding'> بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ </div>
+                    <div className=' margin-bottom xlarge quran'>
+                        {children}
+                    </div>
+                </div>
+                <div className='center margin-top'>
+                    <div className=' bar'>
+                        <nav className=' row flex-nowrap'>
+                            {pagenext ?
+                            <Link href={pagenext[0].link}><a className='bar-item btn margin round-xlarge text-decoration-none medium'>قراءة {pagenext[0].name}</a></Link>
+                            :
+                            <a className='bar-item btn margin round-xlarge text-decoration-none medium'>لا يوجد سورة تالية</a>
+                            }
+                            {pageprev ?
+                            <Link href={pageprev[0].link}><a className='bar-item btn margin round-xlarge text-decoration-none medium'>قراءة {pageprev[0].name}</a></Link>
+                            :
+                            <a className='bar-item btn margin round-xlarge text-decoration-none medium'>لا يوجد سورة سابقة</a>
+                            }
+                        </nav>
+                    </div>
                 </div>
             </div>
-            <div className='center margin-top'>
-                <div className=' bar'>
-                    <nav className=' row flex-nowrap'>
-                        {pagenext ?
-                        <Link href={pagenext[0].link}><a className='bar-item btn margin round-xlarge text-decoration-none medium'>قراءة {pagenext[0].name}</a></Link>
-                        :
-                        <a className='bar-item btn margin round-xlarge text-decoration-none medium'>لا يوجد سورة تالية</a>
-                        }
-                        {pageprev ?
-                        <Link href={pageprev[0].link}><a className='bar-item btn margin round-xlarge text-decoration-none medium'>قراءة {pageprev[0].name}</a></Link>
-                        :
-                        <a className='bar-item btn margin round-xlarge text-decoration-none medium'>لا يوجد سورة سابقة</a>
-                        }
-                    </nav>
-                </div>
-            </div>
-        </div>
+        </>
     )
 }
 

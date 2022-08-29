@@ -2,10 +2,11 @@ import React from 'react'
 import { useDispatch } from 'react-redux'
 import { FetchApi } from '../../Api/FetcherApi'
 import { addPages } from '../../Store/navigationSlice'
+import CommonSEO from '../SEO/SEO'
 import SidebarStickyTutorial from './SidebarTutorial/SidebarStickyTutorial'
 import SidebarTutorial from './SidebarTutorial/SidebarTutorial'
 
-const PageTutorial = ({ children,  apiLocalUrl, namePage}) => {
+const PageTutorial = ({ children,  apiLocalUrl, title, description, keywords}) => {
     const dispatch = useDispatch();
 
     const api = FetchApi(apiLocalUrl);
@@ -34,6 +35,7 @@ const PageTutorial = ({ children,  apiLocalUrl, namePage}) => {
 
     return (
         <>
+            <CommonSEO title={title} description={description} keywords={keywords}/>
             <div className=' display-container'>
                 <div id='idtutorual' className=' height-con width-mdx' >
                     <SidebarStickyTutorial functaggle={functaggle}/>
@@ -41,7 +43,7 @@ const PageTutorial = ({ children,  apiLocalUrl, namePage}) => {
                         <div>
                             <div className='row'>
                                 <div className='col s100'>
-                                    <h1 className='xxlarge' >{namePage}</h1>
+                                    <h1 className='xxlarge' >{title}</h1>
                                 </div>
                             </div>
                         </div>
