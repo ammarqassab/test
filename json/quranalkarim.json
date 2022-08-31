@@ -168,6 +168,54 @@
             "name" : "سورة النمل",
             "description" : "قراءة سورة النمل",
             "link" : "/quran/alnaml"
+        },
+        {
+            "number" : 28,
+            "name" : "سورة القصص",
+            "description" : "قراءة سورة القصص",
+            "link" : "/quran/alqasas"
+        },
+        {
+            "number" : 29,
+            "name" : "سورة العنكبوت",
+            "description" : "قراءة سورة العنكبوت",
+            "link" : "/quran/alankaboot"
+        },
+        {
+            "number" : 30,
+            "name" : "سورة الروم",
+            "description" : "قراءة سورة الروم",
+            "link" : "/quran/alroom"
+        },
+        {
+            "number" : 31,
+            "name" : "سورة لقمان",
+            "description" : "قراءة سورة لقمان",
+            "link" : "/quran/luqman"
+        },
+        {
+            "number" : 32,
+            "name" : "سورة السجدة",
+            "description" : "قراءة سورة السجدة",
+            "link" : "/quran/alsajda"
+        },
+        {
+            "number" : 33,
+            "name" : "سورة الأحزاب",
+            "description" : "قراءة سورة الأحزاب",
+            "link" : "/quran/alahzaab"
+        },
+        {
+            "number" : 34,
+            "name" : "سورة سبأ",
+            "description" : "قراءة سورة سبأ",
+            "link" : "/quran/saba"
+        },
+        {
+            "number" : 35,
+            "name" : "سورة فاطر",
+            "description" : "قراءة سورة فاطر",
+            "link" : "/quran/faatir"
         }
     ],
     "message" : "Link fetched successfully"
