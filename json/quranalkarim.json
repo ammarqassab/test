@@ -216,6 +216,54 @@
             "name" : "سورة فاطر",
             "description" : "قراءة سورة فاطر",
             "link" : "/quran/faatir"
+        },
+        {
+            "number" : 36,
+            "name" : "سورة يس",
+            "description" : "قراءة سورة يس",
+            "link" : "/quran/yaseen"
+        },
+        {
+            "number" : 37,
+            "name" : "سورة الصافات",
+            "description" : "قراءة سورة الصافات",
+            "link" : "/quran/alsaaffaat"
+        },
+        {
+            "number" : 38,
+            "name" : "سورة ص",
+            "description" : "قراءة سورة ص",
+            "link" : "/quran/saad"
+        },
+        {
+            "number" : 39,
+            "name" : "سورة الزمر",
+            "description" : "قراءة سورة الزمر",
+            "link" : "/quran/alzumar"
+        },
+        {
+            "number" : 40,
+            "name" : "سورة غافر",
+            "description" : "قراءة سورة غافر",
+            "link" : "/quran/ghaafir"
+        },
+        {
+            "number" : 41,
+            "name" : "سورة فصلت",
+            "description" : "قراءة سورة فصلت",
+            "link" : "/quran/fussilat"
+        },
+        {
+            "number" : 42,
+            "name" : "سورة الشورى",
+            "description" : "قراءة سورة الشورى",
+            "link" : "/quran/alshura"
+        },
+        {
+            "number" : 43,
+            "name" : "سورة الزخرف",
+            "description" : "قراءة سورة الزخرف",
+            "link" : "/quran/alzukhruf"
         }
     ],
     "message" : "Link fetched successfully"
