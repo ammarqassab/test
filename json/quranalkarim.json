@@ -408,6 +408,288 @@
             "name" : "سورة الملك",
             "description" : "قراءة سورة الملك",
             "link" : "/quran/almulk"
+        },
+        {
+            "number" : 68,
+            "name" : "سورة القلم",
+            "description" : "قراءة سورة القلم",
+            "link" : "/quran/alqalam"
+        },
+        {
+            "number" : 69,
+            "name" : "سورة الحاقة",
+            "description" : "قراءة سورة الحاقة",
+            "link" : "/quran/alhaaqqa"
+        },
+        {
+            "number" : 70,
+            "name" : "سورة المعارج",
+            "description" : "قراءة سورة المعارج",
+            "link" : "/quran/almaarij"
+        },
+        {
+            "number" : 71,
+            "name" : "سورة نوح",
+            "description" : "قراءة سورة نوح",
+            "link" : "/quran/nooh"
+        },
+        {
+            "number" : 72,
+            "name" : "سورة الجن",
+            "description" : "قراءة سورة الجن",
+            "link" : "/quran/aljinn"
+        },
+        {
+            "number" : 73,
+            "name" : "سورة المزمل",
+            "description" : "قراءة سورة المزمل",
+            "link" : "/quran/almuzzammil"
+        },
+        {
+            "number" : 74,
+            "name" : "سورة المدثر",
+            "description" : "قراءة سورة المدثر",
+            "link" : "/quran/almuddaththir"
+        },
+        {
+            "number" : 75,
+            "name" : "سورة القيامة",
+            "description" : "قراءة سورة القيامة",
+            "link" : "/quran/alqiyaama"
+        },
+        {
+            "number" : 76,
+            "name" : "سورة الإنسان",
+            "description" : "قراءة سورة الإنسان",
+            "link" : "/quran/alinsaan"
+        },
+        {
+            "number" : 77,
+            "name" : "سورة المرسلات",
+            "description" : "قراءة سورة المرسلات",
+            "link" : "/quran/almursalaat"
+        },
+        {
+            "number" : 78,
+            "name" : "سورة النبأ",
+            "description" : "قراءة سورة النبأ",
+            "link" : "/quran/alnaba"
+        },
+        {
+            "number" : 79,
+            "name" : "سورة النازعات",
+            "description" : "قراءة سورة النازعات",
+            "link" : "/quran/alnaaziaat"
+        },
+        {
+            "number" : 80,
+            "name" : "سورة عبس",
+            "description" : "قراءة سورة عبس",
+            "link" : "/quran/abasa"
+        },
+        {
+            "number" : 81,
+            "name" : "سورة التكوير",
+            "description" : "قراءة سورة التكوير",
+            "link" : "/quran/altakwir"
+        },
+        {
+            "number" : 82,
+            "name" : "سورة الانفطار",
+            "description" : "قراءة سورة الانفطار",
+            "link" : "/quran/alinfitaar"
+        },
+        {
+            "number" : 83,
+            "name" : "سورة المطففين",
+            "description" : "قراءة سورة المطففين",
+            "link" : "/quran/almutaffifin"
+        },
+        {
+            "number" : 84,
+            "name" : "سورة الانشقاق",
+            "description" : "قراءة سورة الانشقاق",
+            "link" : "/quran/alinshiqaaq"
+        },
+        {
+            "number" : 85,
+            "name" : "سورة البروج",
+            "description" : "قراءة سورة البروج",
+            "link" : "/quran/alburooj"
+        },
+        {
+            "number" : 86,
+            "name" : "سورة الطارق",
+            "description" : "قراءة سورة الطارق",
+            "link" : "/quran/altaariq"
+        },
+        {
+            "number" : 87,
+            "name" : "سورة الأعلى",
+            "description" : "قراءة سورة الأعلى",
+            "link" : "/quran/alaalaa"
+        },
+        {
+            "number" : 88,
+            "name" : "سورة الغاشية",
+            "description" : "قراءة سورة الغاشية",
+            "link" : "/quran/alghaashiya"
+        },
+        {
+            "number" : 89,
+            "name" : "سورة الفجر",
+            "description" : "قراءة سورة الفجر",
+            "link" : "/quran/alfajr"
+        },
+        {
+            "number" : 90,
+            "name" : "سورة البلد",
+            "description" : "قراءة سورة البلد",
+            "link" : "/quran/albalad"
+        },
+        {
+            "number" : 91,
+            "name" : "سورة الشمس",
+            "description" : "قراءة سورة الشمس",
+            "link" : "/quran/alshams"
+        },
+        {
+            "number" : 92,
+            "name" : "سورة الليل",
+            "description" : "قراءة سورة الليل",
+            "link" : "/quran/allail"
+        },
+        {
+            "number" : 93,
+            "name" : "سورة الضحى",
+            "description" : "قراءة سورة الضحى",
+            "link" : "/quran/aldhuhaa"
+        },
+        {
+            "number" : 94,
+            "name" : "سورة الشرح",
+            "description" : "قراءة سورة الشرح",
+            "link" : "/quran/alsharh"
+        },
+        {
+            "number" : 95,
+            "name" : "سورة التين",
+            "description" : "قراءة سورة التين",
+            "link" : "/quran/altin"
+        },
+        {
+            "number" : 96,
+            "name" : "سورة العلق",
+            "description" : "قراءة سورة العلق",
+            "link" : "/quran/alalaq"
+        },
+        {
+            "number" : 97,
+            "name" : "سورة القدر",
+            "description" : "قراءة سورة القدر",
+            "link" : "/quran/alqadr"
+        },
+        {
+            "number" : 98,
+            "name" : "سورة البينة",
+            "description" : "قراءة سورة البينة",
+            "link" : "/quran/albayyina"
+        },
+        {
+            "number" : 99,
+            "name" : "سورة الزلزلة",
+            "description" : "قراءة سورة الزلزلة",
+            "link" : "/quran/alzalzala"
+        },
+        {
+            "number" : 100,
+            "name" : "سورة العاديات",
+            "description" : "قراءة سورة العاديات",
+            "link" : "/quran/alaadiyaat "
+        },
+        {
+            "number" : 101,
+            "name" : "سورة القارعة",
+            "description" : "قراءة سورة القارعة",
+            "link" : "/quran/alqaariaa "
+        },
+        {
+            "number" : 102,
+            "name" : "سورة التكاثر",
+            "description" : "قراءة سورة التكاثر",
+            "link" : "/quran/altakaathur "
+        },
+        {
+            "number" : 103,
+            "name" : "سورة العصر",
+            "description" : "قراءة سورة العصر",
+            "link" : "/quran/alasr "
+        },
+        {
+            "number" : 104,
+            "name" : "سورة الهمزة",
+            "description" : "قراءة سورة الهمزة",
+            "link" : "/quran/alhumaza "
+        },
+        {
+            "number" : 105,
+            "name" : "سورة الفيل",
+            "description" : "قراءة سورة الفيل",
+            "link" : "/quran/alfil "
+        },
+        {
+            "number" : 106,
+            "name" : "سورة قريش",
+            "description" : "قراءة سورة قريش",
+            "link" : "/quran/quraish "
+        },
+        {
+            "number" : 107,
+            "name" : "سورة الماعون",
+            "description" : "قراءة سورة الماعون",
+            "link" : "/quran/almaaun "
+        },
+        {
+            "number" : 108,
+            "name" : "سورة الكوثر",
+            "description" : "قراءة سورة الكوثر",
+            "link" : "/quran/alkawthar "
+        },
+        {
+            "number" : 109,
+            "name" : "سورة الكافرون",
+            "description" : "قراءة سورة الكافرون",
+            "link" : "/quran/alkaafiroon "
+        },
+        {
+            "number" : 110,
+            "name" : "سورة النصر",
+            "description" : "قراءة سورة النصر",
+            "link" : "/quran/alnasr "
+        },
+        {
+            "number" : 111,
+            "name" : "سورة المسد",
+            "description" : "قراءة سورة المسد",
+            "link" : "/quran/almasad "
+        },
+        {
+            "number" : 112,
+            "name" : "سورة الإخلاص",
+            "description" : "قراءة سورة الإخلاص",
+            "link" : "/quran/alikhlaas "
+        },
+        {
+            "number" : 113,
+            "name" : "سورة الفلق",
+            "description" : "قراءة سورة الفلق",
+            "link" : "/quran/alfalaq "
+        },
+        {
+            "number" : 114,
+            "name" : "سورة الناس",
+            "description" : "قراءة سورة الناس",
+            "link" : "/quran/alnaas "
         }
     ],
     "message" : "Link fetched successfully"
