@@ -2149,7 +2149,7 @@ div:hover.clip-path-card
 }
 .mdx code {
   color: var(--textc-4) ;
-  white-space: pre-wrap;
+  white-space: pre;
   direction: ltr !important;
   text-align: left !important;
   font-size:inherit;

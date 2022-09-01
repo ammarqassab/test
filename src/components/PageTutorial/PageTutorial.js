@@ -43,7 +43,7 @@ const PageTutorial = ({ children,  apiLocalUrl, title, description, keywords}) =
                         <div>
                             <div className='row'>
                                 <div className='col s100'>
-                                    <h1 className='xxlarge' >{title}</h1>
+                                    <h1 className='xxlarge margin-left margin-right' >{title}</h1>
                                 </div>
                             </div>
                         </div>
