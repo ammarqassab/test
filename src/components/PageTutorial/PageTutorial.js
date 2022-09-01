@@ -50,7 +50,7 @@ const PageTutorial = ({ children,  apiLocalUrl, title, description, keywords}) =
                     </nav>
                     <div className='row'>
                         <div className='col s100 center'>
-                            <p className=' xlarge textc-4'>أحمد الله رب العالمين و أصلي و أسلم على سيدنا محمد و على آله و صحبه أجمعين .</p>
+                            <p className=' xlarge textc-4 margin-left margin-right'>أحمد الله رب العالمين و أصلي و أسلم على سيدنا محمد و على آله و صحبه أجمعين .</p>
                         </div>
                     </div>
                     {children}
