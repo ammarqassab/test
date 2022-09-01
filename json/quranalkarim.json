@@ -264,6 +264,78 @@
             "name" : "سورة الزخرف",
             "description" : "قراءة سورة الزخرف",
             "link" : "/quran/alzukhruf"
+        },
+        {
+            "number" : 44,
+            "name" : "سورة الدخان",
+            "description" : "قراءة سورة الدخان",
+            "link" : "/quran/aldukhaan"
+        },
+        {
+            "number" : 45,
+            "name" : "سورة الجاثية",
+            "description" : "قراءة سورة الجاثية",
+            "link" : "/quran/aljaathiya"
+        },
+        {
+            "number" : 46,
+            "name" : "سورة الأحقاف",
+            "description" : "قراءة سورة الأحقاف",
+            "link" : "/quran/alahqaf"
+        },
+        {
+            "number" : 47,
+            "name" : "سورة محمد",
+            "description" : "قراءة سورة محمد",
+            "link" : "/quran/muhammad"
+        },
+        {
+            "number" : 48,
+            "name" : "سورة الفتح",
+            "description" : "قراءة سورة الفتح",
+            "link" : "/quran/alfath"
+        },
+        {
+            "number" : 49,
+            "name" : "سورة الحجرات",
+            "description" : "قراءة سورة الحجرات",
+            "link" : "/quran/alhujuraat"
+        },
+        {
+            "number" : 50,
+            "name" : "سورة ق",
+            "description" : "قراءة سورة ق",
+            "link" : "/quran/qaaf"
+        },
+        {
+            "number" : 51,
+            "name" : "سورة الذاريات",
+            "description" : "قراءة سورة الذاريات",
+            "link" : "/quran/alzaariyat"
+        },
+        {
+            "number" : 52,
+            "name" : "سورة الطور",
+            "description" : "قراءة سورة الطور",
+            "link" : "/quran/altur"
+        },
+        {
+            "number" : 53,
+            "name" : "سورة النجم",
+            "description" : "قراءة سورة النجم",
+            "link" : "/quran/alnajm"
+        },
+        {
+            "number" : 54,
+            "name" : "سورة القمر",
+            "description" : "قراءة سورة القمر",
+            "link" : "/quran/alqamar"
+        },
+        {
+            "number" : 55,
+            "name" : "سورة الرحمن",
+            "description" : "قراءة سورة الرحمن",
+            "link" : "/quran/alrahmaan"
         }
     ],
     "message" : "Link fetched successfully"
