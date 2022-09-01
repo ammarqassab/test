@@ -336,6 +336,78 @@
             "name" : "سورة الرحمن",
             "description" : "قراءة سورة الرحمن",
             "link" : "/quran/alrahmaan"
+        },
+        {
+            "number" : 56,
+            "name" : "سورة الواقعة",
+            "description" : "قراءة سورة الواقعة",
+            "link" : "/quran/alwaaqia"
+        },
+        {
+            "number" : 57,
+            "name" : "سورة الحديد",
+            "description" : "قراءة سورة الحديد",
+            "link" : "/quran/alhadid"
+        },
+        {
+            "number" : 58,
+            "name" : "سورة المجادلة",
+            "description" : "قراءة سورة المجادلة",
+            "link" : "/quran/almujaadila"
+        },
+        {
+            "number" : 59,
+            "name" : "سورة الحشر",
+            "description" : "قراءة سورة الحشر",
+            "link" : "/quran/alhashr"
+        },
+        {
+            "number" : 60,
+            "name" : "سورة الممتحنة",
+            "description" : "قراءة سورة الممتحنة",
+            "link" : "/quran/almumtahana"
+        },
+        {
+            "number" : 61,
+            "name" : "سورة الصف",
+            "description" : "قراءة سورة الصف",
+            "link" : "/quran/alsaff"
+        },
+        {
+            "number" : 62,
+            "name" : "سورة الجمعة",
+            "description" : "قراءة سورة الجمعة",
+            "link" : "/quran/aljumuaa"
+        },
+        {
+            "number" : 63,
+            "name" : "سورة المنافقون",
+            "description" : "قراءة سورة المنافقون",
+            "link" : "/quran/almunaafiqoon"
+        },
+        {
+            "number" : 64,
+            "name" : "سورة التغابن",
+            "description" : "قراءة سورة التغابن",
+            "link" : "/quran/altaghaabun"
+        },
+        {
+            "number" : 65,
+            "name" : "سورة الطلاق",
+            "description" : "قراءة سورة الطلاق",
+            "link" : "/quran/altalaaq"
+        },
+        {
+            "number" : 66,
+            "name" : "سورة التحريم",
+            "description" : "قراءة سورة التحريم",
+            "link" : "/quran/altahrim"
+        },
+        {
+            "number" : 67,
+            "name" : "سورة الملك",
+            "description" : "قراءة سورة الملك",
+            "link" : "/quran/almulk"
         }
     ],
     "message" : "Link fetched successfully"
