@@ -605,91 +605,91 @@
             "number" : 100,
             "name" : "سورة العاديات",
             "description" : "قراءة سورة العاديات",
-            "link" : "/quran/alaadiyaat "
+            "link" : "/quran/alaadiyaat"
         },
         {
             "number" : 101,
             "name" : "سورة القارعة",
             "description" : "قراءة سورة القارعة",
-            "link" : "/quran/alqaariaa "
+            "link" : "/quran/alqaariaa"
         },
         {
             "number" : 102,
             "name" : "سورة التكاثر",
             "description" : "قراءة سورة التكاثر",
-            "link" : "/quran/altakaathur "
+            "link" : "/quran/altakaathur"
         },
         {
             "number" : 103,
             "name" : "سورة العصر",
             "description" : "قراءة سورة العصر",
-            "link" : "/quran/alasr "
+            "link" : "/quran/alasr"
         },
         {
             "number" : 104,
             "name" : "سورة الهمزة",
             "description" : "قراءة سورة الهمزة",
-            "link" : "/quran/alhumaza "
+            "link" : "/quran/alhumaza"
         },
         {
             "number" : 105,
             "name" : "سورة الفيل",
             "description" : "قراءة سورة الفيل",
-            "link" : "/quran/alfil "
+            "link" : "/quran/alfil"
         },
         {
             "number" : 106,
             "name" : "سورة قريش",
             "description" : "قراءة سورة قريش",
-            "link" : "/quran/quraish "
+            "link" : "/quran/quraish"
         },
         {
             "number" : 107,
             "name" : "سورة الماعون",
             "description" : "قراءة سورة الماعون",
-            "link" : "/quran/almaaun "
+            "link" : "/quran/almaaun"
         },
         {
             "number" : 108,
             "name" : "سورة الكوثر",
             "description" : "قراءة سورة الكوثر",
-            "link" : "/quran/alkawthar "
+            "link" : "/quran/alkawthar"
         },
         {
             "number" : 109,
             "name" : "سورة الكافرون",
             "description" : "قراءة سورة الكافرون",
-            "link" : "/quran/alkaafiroon "
+            "link" : "/quran/alkaafiroon"
         },
         {
             "number" : 110,
             "name" : "سورة النصر",
             "description" : "قراءة سورة النصر",
-            "link" : "/quran/alnasr "
+            "link" : "/quran/alnasr"
         },
         {
             "number" : 111,
             "name" : "سورة المسد",
             "description" : "قراءة سورة المسد",
-            "link" : "/quran/almasad "
+            "link" : "/quran/almasad"
         },
         {
             "number" : 112,
             "name" : "سورة الإخلاص",
             "description" : "قراءة سورة الإخلاص",
-            "link" : "/quran/alikhlaas "
+            "link" : "/quran/alikhlaas"
         },
         {
             "number" : 113,
             "name" : "سورة الفلق",
             "description" : "قراءة سورة الفلق",
-            "link" : "/quran/alfalaq "
+            "link" : "/quran/alfalaq"
         },
         {
             "number" : 114,
             "name" : "سورة الناس",
             "description" : "قراءة سورة الناس",
-            "link" : "/quran/alnaas "
+            "link" : "/quran/alnaas"
         }
     ],
     "message" : "Link fetched successfully"
