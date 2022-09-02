@@ -35,7 +35,7 @@ const QuranPage = ({ children, title, description, keywords }) => {
             <CommonSEO title={title} description={description} keywords={keywords} />
             <div className=' margin padding rtl'>
                 <div className='center xxlarge margin-bottom padding'>
-                    <h1>{title || 'سورة'}</h1>
+                    <h1>{pageinf.length > 0 ? `(${pageinf[0].number})` : ''} {title || 'سورة'}</h1>
                 </div>
                 <div className=' app-box-shadow padding'>
                     <div className='center xxlarge textc-4 padding'> بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ </div>
@@ -43,21 +43,21 @@ const QuranPage = ({ children, title, description, keywords }) => {
                         {children}
                     </div>
                 </div>
-                <div className='center margin-top'>
-                    <div className=' bar'>
-                        <nav className=' row flex-nowrap'>
-                            {pagenext ?
-                            <Link href={pagenext[0].link}><a className='bar-item btn margin round-xlarge text-decoration-none medium'>قراءة {pagenext[0].name}</a></Link>
-                            :
-                            <a className='bar-item btn margin round-xlarge text-decoration-none medium'>لا يوجد سورة تالية</a>
-                            }
-                            {pageprev ?
-                            <Link href={pageprev[0].link}><a className='bar-item btn margin round-xlarge text-decoration-none medium'>قراءة {pageprev[0].name}</a></Link>
-                            :
-                            <a className='bar-item btn margin round-xlarge text-decoration-none medium'>لا يوجد سورة سابقة</a>
-                            }
-                        </nav>
-                    </div>
+            </div>
+            <div className='center margin-top'>
+                <div className=' bar'>
+                    <nav className=' row flex-nowrap'>
+                        {pagenext ?
+                        <Link href={pagenext[0].link}><a className='bar-item btn margin round-xlarge text-decoration-none medium'>{`(${pagenext[0].number})`} قراءة {pagenext[0].name}</a></Link>
+                        :
+                        <a className='bar-item btn margin round-xlarge text-decoration-none medium'>لا يوجد سورة تالية</a>
+                        }
+                        {pageprev ?
+                        <Link href={pageprev[0].link}><a className='bar-item btn margin round-xlarge text-decoration-none medium'>{`(${pageprev[0].number})`} قراءة {pageprev[0].name}</a></Link>
+                        :
+                        <a className='bar-item btn margin round-xlarge text-decoration-none medium'>لا يوجد سورة سابقة</a>
+                        }
+                    </nav>
                 </div>
             </div>
         </>

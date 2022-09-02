@@ -18,7 +18,7 @@ const QuranSections = () => {
                 quranalkarim.map((iteme, index) => (
                     <div className='col m50 l25 padding center xlarge textc-5 hover-textc-2' key={index}>
                         <Link href={iteme.link} prefetch={false}>
-                            <div className='app-box-shadow hover-app-box-shadow padding-small pointer'>
+                            <div className='app-box-shadow hover-app-box-shadow padding-small round pointer'>
                                 <a className=' text-decoration-none'>{`(${iteme.number})`} قراءة {iteme.name}</a>
                             </div>
                         </Link>
