@@ -1,10 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
-import { useSelector } from 'react-redux'
 
-const QuranSections = () => {
-
-    const quranalkarim = useSelector(state => state.quranalkarim.pages)
+const QuranSections = ({ quran }) => {
 
     return (
         <main className=' margin padding'>
@@ -14,8 +11,8 @@ const QuranSections = () => {
                 </div>
             </div>
             <div className='row app-box-shadow text-overflow2 padding'>
-                {quranalkarim &&
-                quranalkarim.map((iteme, index) => (
+                {quran &&
+                quran.map((iteme, index) => (
                     <div className='col m50 l25 padding center xlarge textc-5 hover-textc-2' key={index}>
                         <Link href={iteme.link} prefetch={false}>
                             <div className='app-box-shadow hover-app-box-shadow padding-small round pointer'>

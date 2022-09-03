@@ -1,11 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import { useSelector } from 'react-redux';
 
-const SidebarStickyTutorial = ({functaggle}) => {
+const SidebarStickyTutorial = ({ pages, functaggle }) => {
 
-    const pages = useSelector(state => state.navigation.pages)
     const pname = useRouter().asPath;
     let NavName = [];
     let nextpage = null;

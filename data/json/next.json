@@ -1,5 +1,5 @@
 {
-    "name" : "Next.js",
+    "name" : "next",
     "data" : [
         {
             "number" : 1,
@@ -7,7 +7,7 @@
             "tutorial" : "Next.js",
             "name" : "مقدمة عن Next.js",
             "description" : "و هو إطار مبني بال React.js للإنتاج التطبيقات الفعالة و المبتكرة",
-            "link" : "/tutorial/next"
+            "link" : "/tutorial/next/index"
         },
         {
             "number" : 2,

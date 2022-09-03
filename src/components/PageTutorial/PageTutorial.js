@@ -1,19 +1,9 @@
 import React from 'react'
-import { useDispatch } from 'react-redux'
-import { FetchApi } from '../../Api/FetcherApi'
-import { addPages } from '../../Store/navigationSlice'
 import CommonSEO from '../SEO/SEO'
 import SidebarStickyTutorial from './SidebarTutorial/SidebarStickyTutorial'
 import SidebarTutorial from './SidebarTutorial/SidebarTutorial'
 
-const PageTutorial = ({ children,  apiLocalUrl, title, description, keywords}) => {
-    const dispatch = useDispatch();
-
-    const api = FetchApi(apiLocalUrl);
-    
-    React.useEffect(() => {
-        if(api.data && api.isLoading == false) dispatch(addPages(api.data.data))
-    },[api])
+const PageTutorial = ({ children, pages, title, description, keywords}) => {
 
     const [taggle, settaggle] = React.useState(false);
 
@@ -38,7 +28,7 @@ const PageTutorial = ({ children,  apiLocalUrl, title, description, keywords}) =
             <CommonSEO title={title} description={description} keywords={keywords}/>
             <div className=' display-container'>
                 <div id='idtutorual' className=' height-con width-mdx' >
-                    <SidebarStickyTutorial functaggle={functaggle}/>
+                    <SidebarStickyTutorial pages={pages} functaggle={functaggle}/>
                     <nav className='center'>
                         <div>
                             <div className='row'>
@@ -53,9 +43,11 @@ const PageTutorial = ({ children,  apiLocalUrl, title, description, keywords}) =
                             <p className=' xlarge textc-4 margin-left margin-right'>أحمد الله رب العالمين و أصلي و أسلم على سيدنا محمد و على آله و صحبه أجمعين .</p>
                         </div>
                     </div>
-                    {children}
+                    <div className='mdx'>
+                        {children}
+                    </div>
                 </div>
-                {taggle && <SidebarTutorial functaggle={functaggle}/>}
+                {taggle && <SidebarTutorial pages={pages} functaggle={functaggle}/>}
             </div>
         </>
     )

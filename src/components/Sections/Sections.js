@@ -1,10 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
-import { useSelector } from 'react-redux';
 
-const CartMySections = ({name}) => {
+const CartMySections = ({name, tutorialSections}) => {
 
-    const tutorial = useSelector(state => state.navigation.tutorial)
+    const tutorial = tutorialSections
 
     return (
         <>
@@ -31,9 +30,7 @@ const CartMySections = ({name}) => {
     );
 }
 
-const Sections = () => {
-
-    const sections = useSelector(state => state.navigation.sections)
+const Sections = ({ sections, tutorialSections }) => {
 
     return (
         <>
@@ -47,7 +44,7 @@ const Sections = () => {
                 </div>
                 <div className='app-box-shadow text-overflow2' style={{padding:'18px'}} >
                     <div className=' row'>
-                        <CartMySections name={iteme.name}/>
+                        <CartMySections name={iteme.name} tutorialSections={tutorialSections}/>
                     </div>
                 </div>
             </div>

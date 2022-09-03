@@ -3,10 +3,7 @@ import { useSelector } from 'react-redux'
 import Link from 'next/link'
 import ApplicationLogo from '../ApplicationLogo'
 
-const Header = () => {
-
-  const sections = useSelector(state => state.navigation.sections)
-  const tutorial = useSelector(state => state.navigation.tutorial)
+const Header = ({ sections, tutorialSections }) => {
 
   const [handle, sethandle] = React.useState(false)
 
@@ -31,8 +28,8 @@ const Header = () => {
               <div className=' col m50 l25 padding' key={index}>
                 <div className=" textc-4 xlarge left-align" >{iteme.name} :</div>
                 <ul className='ul left-align'>
-                  {tutorial &&
-                  tutorial.map((itemet, indext) => (
+                  {tutorialSections &&
+                    tutorialSections.map((itemet, indext) => (
                     itemet.sections == iteme.name &&
                       <li className=' textc-2 large text-decoration-none hover-textc-4' key={indext}>
                         <Link href={itemet.link}>
