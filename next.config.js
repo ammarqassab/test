@@ -12,6 +12,10 @@ const withMDX = require('@next/mdx')({
 
 module.exports = withMDX({
   reactStrictMode: true,
+  images: {
+    loader: 'imgix',
+    path: 'https://appprogramming.vercel.app',
+  },
   env: {
     appName: 'App Programming',
     appUrl: 'https://appprogramming.vercel.app',
